@@ -34,10 +34,19 @@ height: 24px;
 transform: translateY(3px);
 }
 
-
+@media(max-width:768px){
+.navbar{
+flex-direction: column;
+}
+    
+.navlinks a{
+font-size: 15px;
+}
+}
 
 @media(max-width:400px){
 .navlinks a{
 font-size: 8px;
 }
 }
+
