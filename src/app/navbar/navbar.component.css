@@ -1,0 +1,36 @@
+.navbar{
+display: flex;
+}
+    
+.navlinks{
+margin: auto;
+padding: 0;
+}
+
+.navlinks li {
+display: inline-block;
+list-style-type: none;
+}
+
+.navlinks a {
+color: #000000;
+margin: 24px;
+text-decoration: none;
+} 
+
+.logo{
+margin: auto;
+}
+
+.logo {
+margin: auto;
+font-size: 30px;
+text-decoration: none;
+cursor: pointer;
+}
+        
+.logo img{
+height: 24px;
+transform: translateY(3px);
+}
+        

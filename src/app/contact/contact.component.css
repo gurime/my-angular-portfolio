@@ -1,0 +1,127 @@
+.contact-wrapper{
+    background: linear-gradient(to bottom, #7CC6BA, #687BFC);
+    height: 100vh;
+    overflow: hidden;
+    }
+    
+    .ui-pic-box{
+    display: grid;
+    justify-content: center;
+    }
+    
+    .ui-pic-box img{
+        margin-top: 5rem;
+        height: 200px;
+    
+    }
+    
+    .contact-title{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: #fff;
+        line-height: 200px;
+    }
+    
+    .contact-address{
+      
+        text-align: center;
+    }
+    
+    .email-contact{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .email-contact img{
+        margin-top:28px;
+        height:24px;
+    }
+    
+    .phone-contact{
+        display: flex;
+        justify-content: center;
+       
+    }
+    
+    .phone-contact-name{
+        font-size:24px;
+        color:#fff;
+    }
+    
+    .phone-contact img{
+        margin-top:15px ;
+        transform:translate(-55px);
+        height: 50px;
+    }
+    
+    .contact-name{
+        font-size: 30px;
+        color:#fff;
+        font-weight:bold;
+        letter-spacing: 3px;
+    }
+    
+    .email-name{
+        margin-left: 40px;
+        font-size:24px;
+        color:#fff
+    }
+
+
+    .social-links-box{
+        display: flex;
+        justify-content: center;
+        transform: translateY(24px) !important;
+    }
+    
+    .social-links-box img{
+        height: 24px;
+        transform: translateY(14px);
+        padding-left: 1rem;
+        cursor: pointer;
+    
+    }
+    
+    @media(max-width:768px){
+        .social-links-box{
+            font-size: 15px;
+        }
+        
+    }
+    
+    @media(max-width:500px){
+        .contact-wrapper{
+            position: relative;
+    
+        }
+        .ui-pic-box img{
+            height: 60px;
+        }
+    
+        .contact-title{
+            font-size: 20px;    }
+    
+            .contact-name{
+                font-size: 20px;
+            }
+    
+            .email-name{
+                font-size: 15px;
+            }
+    
+            .email-contact img{
+                height: 15px;
+                margin-top: 19px !important;
+            }
+    
+            .phone-contact img{
+                height: 20px;
+                transform: translate(-50px);
+            }
+    
+            .phone-contact-name{
+    font-size: 15px;
+            }
+    }
