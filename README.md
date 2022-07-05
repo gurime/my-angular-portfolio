@@ -5,6 +5,6 @@ This project is a portfolio that shows off my work in web design and developemen
 ## Angular
 I designed this portfolio using Angular.
 
-##help
+## help
 
 If you need to reach me, you can do so my clicking this link which will take to you my LinkedIn profile. https://www.linkedin.com/in/ogphillip-bailey/
